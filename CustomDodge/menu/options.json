@@ -1,0 +1,21 @@
+{
+	"menu_id" : "customdodge_options",
+	"parent_menu_id" : "blt_options",
+	"title" : "customdodge_options_title",
+	"description" : "customdodge_options_desc",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "customdodge_multi_choice",
+			"title" : "customdodge_choice_title",
+			"description" : "customdodge_choice_desc",
+			"callback" : "callback_customdodge_choice",
+			"items" : [
+				"customdodge_no_change",
+				"customdodge_none",
+				"customdodge_loads"
+			],
+			"value" : "customdodge_choice"
+		}
+	]
+}

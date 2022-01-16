@@ -1,0 +1,19 @@
+{
+	"name" : "Custom Dodge",
+	"description" : "Forces absurd changes onto your dodge number",
+	"author" : "leolama",
+	"contact" : "https://steamcommunity.com/id/leolama/",
+	"color" : "0 0 0",
+	"version" : "1",
+	"blt_version" : 2,
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/playermanager",
+			"script_path" : "lua/playermanager.lua"
+		}
+	]
+	"updates" : [{
+		"identifier" : "CustomDodge",
+		"host" : {"meta" : "https://github.com/leolama/CustomDodge/raw/master/meta.json",}
+	}]
+}
